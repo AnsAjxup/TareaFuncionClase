@@ -3,11 +3,15 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.printf("Hello and welcome!");
-
-        int resultadoSuma = funcionClase.suma(4,4, 4);
-
+        //resultado de la función
+        int resultadoSuma = funcionSuma.suma(4, 6, 4);
         System.out.println("el total de la suma es= " + resultadoSuma);
+
+        //resultado de la clase
+        claseCoche coche = new claseCoche();
+        System.out.println("No. de puetas del coche: " + coche.numeroDePuertas);
+        coche.añadirPuerta(4);
+        System.out.println("No. de puetas del coche: " + coche.numeroDePuertas);
 
     }
 }
