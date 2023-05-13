@@ -9,9 +9,9 @@ public class Main {
 
         //resultado de la clase
         claseCoche coche = new claseCoche();
-        System.out.println("No. de puetas del coche: " + coche.numeroDePuertas);
+        System.out.println("Número de puetas del coche: " + coche.numeroDePuertas);
         coche.añadirPuerta(4);
-        System.out.println("No. de puetas del coche: " + coche.numeroDePuertas);
+        System.out.println("Número de puetas del coche: " + coche.numeroDePuertas);
 
     }
 }
